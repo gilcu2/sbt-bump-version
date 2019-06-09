@@ -1,4 +1,5 @@
 # sbt-bump-version
+[ ![Download](https://api.bintray.com/packages/reug/maven/sbt-bump-version/images/download.svg) ](https://bintray.com/reug/maven/sbt-bump-version/_latestVersion)
 
 This plugin provides a task to update the project version.
 The versioning approach follows the [SemVer](https://semver.org/) rules.
