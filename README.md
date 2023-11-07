@@ -1,5 +1,8 @@
 # sbt-bump-version
-[ ![Download](https://api.bintray.com/packages/reug/maven/sbt-bump-version/images/download.svg) ](https://bintray.com/reug/maven/sbt-bump-version/_latestVersion)
+
+Forked from https://github.com/reugn/sbt-bump-version
+
+[ ![Download](https://api.bintray.com/packages/gilcu2/maven/sbt-bump-version/images/download.svg) ](https://bintray.com/reug/maven/sbt-bump-version/_latestVersion)
 
 This plugin provides a task to update the project version.
 The versioning approach follows the [SemVer](https://semver.org/) rules.
@@ -15,8 +18,8 @@ The versioning approach follows the [SemVer](https://semver.org/) rules.
 ## Getting started
 Add the following to ./project/plugins.sbt:
 ```scala
-resolvers += Resolver.bintrayRepo("reug", "maven")
-addSbtPlugin("com.github.reugn" % "sbt-bump-version" % "<version>")
+resolvers += Resolver.bintrayRepo("gilcu2", "maven")
+addSbtPlugin("com.github.gilcu2" % "sbt-bump-version" % "<version>")
 ```
 Enable plugin:
 ```scala
